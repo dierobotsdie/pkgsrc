@@ -38,7 +38,7 @@
 # Don't append extra arguments if "-v" is passed to the command.
 for arg do
 	case $arg in
-	-v)	append_extra_args=no; break ;;
+	#-v)	append_extra_args=no; break ;;
 	*)	;;
 	esac
 done
